@@ -6,7 +6,7 @@
 #
 
 FROM ubuntu:16.04
- MAINTAINER Evgeniy Ozhiganov <eozhiganov@gail.com>
+MAINTAINER Evgeniy Ozhiganov <eozhiganov@gail.com>
 
 RUN		apt-get update -qq && apt-get install -qqy \
   automake \
